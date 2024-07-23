@@ -1,0 +1,42 @@
+body {
+    background-color: #87CEEB; 
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    background-color: #FFFACD; 
+    border: 5px solid #FF4500;
+    padding: 15px; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;
+    color: #FF4500;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #FFD700; 
+}
+
+#jokeElement {
+    font-size: 1.2em; 
+    color: #2E8B57; 
+    margin-top: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
